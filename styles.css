@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+US+Trad:wght@100..400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-family: Arial,sans-serif;
+    line-height: 1.6vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100 vh;
+   }
+.container {
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+    color: rgb(204, 84, 84);
+}
+.header {
+    background-color:rgb(16, 219, 84);
+    padding: 30px 100px;
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    width: 100;
+    font-family:'Open Sans', sans-serif; ;
+}
+
+header h1 {
+    margin: 0;
+    text-align: right;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #b62222;
+}
+
+.hero {
+    padding-top: 150;
+    text-align:justify;
+    color: #c22323; 
+    
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #27e621;
+    color: #0e0e0e;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .cta-button:hover {
+    background-color: #555;
+}
+.home {
+    padding: 80px 0;
+    text-align: right;
+}
+
+.home h2 {
+    margin-bottom: 40px;
+}
+
+.home .feature-item {
+    margin-bottom: 40px;
+}
+
+.home .feature-item h3 {
+    margin-bottom: 10px;
+}
+.pricing {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.pricing .plan {
+    background-color: #c2bece;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: calc(50% - 40px); 
+    vertical-align: top;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing .plan h3 {
+    margin-bottom: 10px;
+}
+
+.pricing .plan p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.pricing .plan ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.pricing .plan ul li {
+    padding: 5px 0;
+}
+
+.pricing .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #c11065;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.pricing .cta-button:hover {
+    background-color: #555;
+}
+.contact {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #a42020;
+    border-radius: 5px;
+}
+
+.contact textarea {
+    height: 150px;
+}
+
+.contact button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ff3131;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button[type="submit"]:hover {
+    background-color: #555;
+}
+footer {
+    background-color: rgba(204, 166, 166, 0.9); 
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    clear: both;
+}
+
+footer p {
+    margin: 0;
+}
+
+.image{
+
+    color: #3c0ad0;
+    float:right;
+    padding-right: 150px;
+
+}
+
+.heading {
+    text-align: center;
+    font-weight: 100;
+    color: blue;
+    font-size:xx-large  ;
+    padding-top: 30;
+    font-style: normal;
+}
+.contains{
+    padding-bottom: 50px;
+}
+ 
